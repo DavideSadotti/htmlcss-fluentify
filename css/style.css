@@ -14,9 +14,10 @@ body{
   clear: both;
 }
 
+/* BARRA DI NAVIGAZIONE */
 header{
   background-color: #0c325a;
-  height: 450px;
+  height: 550px;
   position: relative;
 }
 
@@ -46,27 +47,6 @@ nav div{
   text-align: right;
 }
 
-.btn-login{
-  border: 1px solid white;
-  border-radius: 5px;
-  padding: 10px 20px
-}
-
-.btn-green-small{
-  background-color: #7cbb02;
-  border-radius: 5px;
-  margin-left: 10px
-}
-
-.btn-green-big{
-  text-transform: uppercase;
-  display: inline-block;
-  background-color: #7cbb02;
-  border-radius: 5px;
-  padding: 20px 10px;
-
-}
-
 ul li{
   display: inline-block;
 }
@@ -78,16 +58,40 @@ ul li a{
   padding: 10px
 }
 
+.btn-login{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 20px
+}
+
+/* BOTTONE PICCOLO */
+.btn-green-small{
+  background-color: #7cbb02;
+  border-radius: 5px;
+  margin-left: 10px
+}
+
+/* BOTTONE GRANDE */
+.btn-green-big{
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #7cbb02;
+  border-radius: 5px;
+  padding: 20px 10px;
+
+}
+
+/* BOX HERO */
 .banner-hero{
-  height: 399px;
+  height: 499px;
   width: 80%;
   margin: auto;
   position: relative;
 }
 
 .hero-photo{
-  width: 700px;
-  height: 300px;
+  width: 1000px;
+  height: 450px;
   background-image: url("../img/background-header.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,4 +112,26 @@ ul li a{
 .hero-text h1{
   margin: 20px 0;
   font-size: 50px;
+}
+
+/* BOX GRIGIO MAIN */
+.gray-box{
+  background-color: #d3d3d3;
+}
+
+.text-box-gray{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 30px
+}
+
+.text-box-gray h3{
+  font-size: 25px;
+  padding: 10px 0 5px;
+}
+
+.text-box-gray p{
+  color: #808080;
+  padding: 5px 0 10px;
 }
