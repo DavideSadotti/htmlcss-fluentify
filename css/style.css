@@ -19,6 +19,7 @@ header{
   background-color: #0c325a;
   height: 550px;
   position: relative;
+  overflow: hidden;
 }
 
 header nav{
@@ -134,4 +135,36 @@ ul li a{
 .text-box-gray p{
   color: #808080;
   padding: 5px 0 10px;
+}
+
+/* BOX COLONNE */
+.box-colonne{
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.box-colonne div{
+  width: calc(100% / 3);
+  float: left;
+}
+
+.box-colonne img{
+  height: 200px;
+}
+
+.box-colonne h3{
+  font-size: 30px;
+  color: #7cbb02;
+  padding: 30px;
+}
+
+.box-colonne hr{
+  width: 30%;
+  margin: auto;
+}
+
+.box-colonne p{
+  color: #808080;
+  padding: 30px;
 }
