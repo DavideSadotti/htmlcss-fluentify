@@ -81,8 +81,8 @@ ul li a{
   display: inline-block;
   background-color: #7cbb02;
   border-radius: 5px;
-  padding: 20px 10px;
-
+  padding: 20px 15px;
+  font-size: 14px;
 }
 
 /* BOX HERO */
@@ -149,7 +149,7 @@ ul li a{
 .box-tre-colonne h3{
   font-size: 30px;
   color: #7cbb02;
-  padding: 30px;
+  padding: 20px;
   font-weight: 500;
 }
 
@@ -168,6 +168,7 @@ ul li a{
 main > hr{
   width: 95%;
   margin: 20px auto 30px;
+  border: 0.5px solid #e6e6e6;
 }
 
 /* BOX CON DUE COLONNE */
@@ -188,7 +189,7 @@ main > hr{
 }
 
 .box-due-colonne P{
-  margin: 20px 0 30px;
+  margin: 10px 0 20px;
   color: #808080;
   font-size: 20px;
   font-weight: 500;
